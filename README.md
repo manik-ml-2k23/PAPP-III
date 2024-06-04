@@ -12,8 +12,11 @@ prompt_III.ipynb - Contains the solution sumbission
 We are trying to predict if the client will subsribe to a term deposit and important factors influencing the decision.
 
 Features used for prediciton in this dataset:
+
 **categorical_features** = job, marital, education, default, housing, loan, contact, month, day_of_week, poutcome
+
 **numerical_features** = age, duration, campaign, pdays, previous, emp.var.rate, cons.price.idx, cons.conf.idx, euribor3m, nr.employed
+
 **Target Feature:** 'y' - has the client subscribed a term deposit? (binary: 'yes','no')
 
 ### Data Acquisition
@@ -24,7 +27,6 @@ As first step the data was analyzed for missing values and nans.
 No missing data was found.
 
 ## Data Preparation:
-
  - Duplicate records were removed to ensure data quality.
  - 'duration' column was removed for better predictive model
  - Encoded categorical features using label encoding.
